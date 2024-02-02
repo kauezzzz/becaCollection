@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+}
+
+body{
+    background-image: url(assets/bg-2.png);
+}
+
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header{
+    background-color: #C3BCB7;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: #17203F;
+    margin-top: 9px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.menu a:hover {
+    color:#8B634A
+}
+
+a{
+    text-decoration: none;
+    margin: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #000;
+}
+
+.form{
+    width: 97%;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    box-shadow: 5px -5px 30px 10px gray;
+    background-color: #C3BCB7;
+}
+
+h2{display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 30px;
+
+    color: #17203F;
+}
+
+.input{
+    padding: 10px;
+}
+
+input{
+    display: flex;
+    
+    padding: 10px;
+    margin-top: 25px;
+    
+    gap: 1rem;
+    width: 1020px;
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+}
+
+.butão{
+    width: 1045px;
+    background-color: #1B3B56;
+
+    border: none;
+    border-radius: 10px;
+    
+    font-size: 15px;
+    font-weight: bolder;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+}
+
+.butão:hover{
+    background-color: #8B634A;
+}
+
+  
+.image {
+    max-height: 90px !important;
+    max-width:12% !important;
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1rem;
+    margin-left: 10rem;
+  }
+
+  .footer-container {
+    color: #17203F;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+   padding-right: 5rem;
+
+
+}
+
+
+footer {
+    margin-top: 130px;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction:row;
+    gap: 0.5rem;
+    background:#C3BCB7;
+    justify-content: space-between;
+    align-items: center !important;
+}
